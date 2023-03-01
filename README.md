@@ -1,2 +1,2 @@
-# projeto-curso-em-video
+# projeto-curso-em-vídeo
 O OBJETIVO DESSE PROJETO É REALIZAR 100 EXERCÍCIOS EM PYTHON.
