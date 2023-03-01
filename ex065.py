@@ -1,18 +1,13 @@
-maior = 0
-menor = 9000000000000000000
+valores = []
 while True:
     num = int(input("Digite um número : "))
-    if num > maior:
-        maior = num
-    if num <= menor:
-        menor = num
+    valores.append(num)
+    mínimo = min(valores)
+    máximo = max(valores)
     confirm=input("Continuar : ")
     if confirm.lower().strip() == "s":
         continue
     elif confirm.lower().strip() == "n":
         break
-
-print(f"O maior valor é : {maior}")
-print(f"O menor valor é : {menor}")
-
-
+print(f"O maior valor é : {máximo}")
+print(f"O menor valor é : {mínimo}")
